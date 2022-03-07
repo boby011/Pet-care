@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head> 
+       <meta charset="UTF-8">    
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css" />
+      <title>Pet care</title>
+        </head>
+<body> 
+    <section class="showcase">
+        <header>
+          <h2 class="logo">Pet Care</h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="DOG.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>We Care Your Pets.</h2> 
+          <h3> They are also a part of our family.</h3>
+          <p>We provide care that your pet deserves..</p>
+          <a href="#">Explore</a>
+          <script>
+            const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+    
+        menuToggle.addEventListener('click', () => {
+          menuToggle.classList.toggle('active');
+          showcase.classList.toggle('active');
+        })
+        </script>
+        </div>
+        <ul class="social">
+          <li><a href="https://www.facebook.com/"><img src="facebook.png"></a></li>
+          <li><a href="https://twitter.com/i/flow/login"><img src="twitter.png"></a></li>
+          <li><a href="https://www.instagram.com/accounts/login/"><img src="instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
